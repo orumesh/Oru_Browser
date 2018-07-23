@@ -24,6 +24,7 @@ if (argv.user) {
         }
     });
 
+
     const rl = readline.createInterface({
         input: process.stdin,
         output: mutableStdout,
